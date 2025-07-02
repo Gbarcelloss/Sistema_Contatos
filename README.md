@@ -45,19 +45,20 @@ Filtro de segurança para impedir acesso sem login
 Logout
 
 Como rodar
-Clone o projeto:
+1. Clone o projeto:
 
 
 git clone https://github.com/Gbarcelloss/Sistema_Contatos.git
-Importe no Eclipse como projeto Maven
+2. Importe no Eclipse como projeto Maven
 
-Configure o Tomcat (versão 9 ou superior)
+3. Configure o Tomcat (versão 9 ou superior)
 
-Rode no servidor
+4. Rode no servidor
 
-Acesse no navegador:
+5. Acesse no navegador:
 
 
 http://localhost:8080/Sistema_Contatos
+
 Status
 ✔️ Projeto finalizado e publicado como parte do meu processo de aprendizado e prática com Java e Spring MVC.
