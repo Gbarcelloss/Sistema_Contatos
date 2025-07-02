@@ -1,52 +1,61 @@
-# Sistema de Contatos
+Sistema de Contatos - Spring MVC
+Esse é um projeto que eu fiz em Java usando Spring MVC. Ele foi baseado em um curso que fiz há cerca de 2 anos, mas agora estou revisando e atualizando tudo com o que venho aprendendo na faculdade e nos meus estudos mais recentes.
 
-Esse é um projeto que desenvolvi em Java usando Spring MVC, com o objetivo de praticar o conteúdo que venho aprendendo na faculdade de Análise e Desenvolvimento de Sistemas.  
-Tenho 24 anos e estou no 3º semestre (1 ano e meio de curso).
+Tenho 24 anos e estou cursando o 3º semestre de Análise e Desenvolvimento de Sistemas (1 ano e meio de curso). Decidi retomar esse projeto antigo como forma de praticar Java, reforçar meus conhecimentos em Spring MVC e também montar um portfólio com os projetos que estou refazendo.
 
-A ideia do sistema é permitir que o usuário crie uma conta, faça login e consiga gerenciar contatos (cadastrar, consultar, editar e excluir).
+Sobre o sistema
+O sistema permite que o usuário crie uma conta, faça login e gerencie contatos (cadastrar, consultar, editar e excluir).
 
-Também implementei um sistema de recuperação de senha via e-mail. Se o usuário esquecer a senha, ele recebe uma senha aleatória no e-mail cadastrado. Depois de fazer login com essa senha temporária, ele pode acessar a área "minha conta" e cadastrar uma nova senha de sua escolha.
+Também tem um recurso de recuperação de senha via e-mail. Caso o usuário esqueça a senha, ele recebe uma senha aleatória no e-mail e depois pode trocar por uma nova na área "minha conta".
 
-## Tecnologias utilizadas
+Tecnologias usadas
+Java
 
-- Java
-- Spring MVC
-- JSP / JSTL
-- HTML / CSS
-- JDBC
-- Maven
-- Servidor Apache Tomcat
-- Eclipse IDE
-- API de envio de e-mail (JavaMail)
+Spring MVC
 
-## Funcionalidades
+JSP / JSTL
 
-- Criar conta de usuário
-- Login com verificação
-- Recuperação de senha via e-mail
-- Alterar senha após login
-- Cadastrar, consultar, editar e excluir contatos
-- Filtro de segurança para impedir acesso sem login
-- Logout
+HTML / CSS
 
-## Como rodar o projeto
+JDBC
 
-1. Clone o repositório:
+Maven
+
+Tomcat
+
+Eclipse
+
+JavaMail
+
+Funcionalidades
+Criar conta de usuário
+
+Login com validação
+
+Recuperação de senha por e-mail
+
+Alterar senha após login
+
+Gerenciar contatos (CRUD)
+
+Filtro de segurança para impedir acesso sem login
+
+Logout
+
+Como rodar
+Clone o projeto:
+
+
 git clone https://github.com/Gbarcelloss/Sistema_Contatos.git
+Importe no Eclipse como projeto Maven
+
+Configure o Tomcat (versão 9 ou superior)
+
+Rode no servidor
+
+Acesse no navegador:
 
 
-
-2. Importe o projeto no Eclipse como **projeto Maven**
-
-3. Configure o Tomcat no Eclipse (versão 9 ou superior)
-
-4. Rode o projeto no servidor
-
-5. Acesse no navegador:
 http://localhost:8080/Sistema_Contatos
-
-
-
-## Status do projeto
-
-✅ Projeto finalizado para fins de estudo e portfólio.
+Status
+✔️ Projeto finalizado e publicado como parte do meu processo de aprendizado e prática com Java e Spring MVC.
