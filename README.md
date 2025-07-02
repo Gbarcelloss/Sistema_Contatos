@@ -17,6 +17,8 @@ JSP / JSTL
 
 HTML / CSS
 
+Bootstrap
+
 JDBC
 
 Maven
